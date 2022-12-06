@@ -10,14 +10,15 @@ namespace Pim2022.Repository
         {
             StringBuilder query = new StringBuilder();
 
-            query.AppendLine("INSERT INTO contato (nome, sobrenome, email, telefone) ");
-            query.AppendLine("VALUES ('" + nome + "', '" + sobrenome + "', '"+ email +"', '"+ telefone+"')");
+            query.AppendLine("INSERT INTO DADOSCADASTRAIS (NOME, CPF, ENDEREÇO, NUMERO, BAIRRO, CIDADE, " +
+                "ESTADO, DATANASCIMENTO, TELEFONE, CARGO, EMAIL, RENDA, SENHA) ");
+
+            query.AppendLine("VALUES ('" + nome + " " + sobrenome + "', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '" 
+                + telefone + "', NULL, '" + email + "', NULL, NULL )");
 
 
             SqlConnection connection =
-                new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PIM;Integrated "+
-                "Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent="+
-                "ReadWrite;MultiSubnetFailover=False");
+                new SqlConnection("Data Source=189.100.245.223,1433;Initial Catalog=PIM;User ID=pim;Password=123@mudar");
             
             SqlCommand cmd = new SqlCommand(query.ToString(), connection);
 

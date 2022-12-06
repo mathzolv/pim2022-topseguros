@@ -29,15 +29,16 @@ namespace Pim2022_TopSegurosBrasil
                 {
                     DataBasePim db = new DataBasePim();
                     db.Insert(txtNome.Text, txtsobrenome.Text, txtemail.Text, txttelefone.Text);
+                    
                 }
                 catch (Exception ex)
                 {
                     this.SendMessage("Error!", "Não foi possível enviar e-mail!", "error");
+                    
                 }
-               
-
                 this.SendMessage("Sucesso!", "E-mail enviado com sucesso!", "success");
             }
+
         }
 
         private void SendMessage(string titulo, string mensagem, string tipo)
