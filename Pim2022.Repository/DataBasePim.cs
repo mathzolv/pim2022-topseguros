@@ -15,7 +15,9 @@ namespace Pim2022.Repository
 
 
             SqlConnection connection =
-                new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PIM;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PIM;Integrated "+
+                "Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent="+
+                "ReadWrite;MultiSubnetFailover=False");
             
             SqlCommand cmd = new SqlCommand(query.ToString(), connection);
 
