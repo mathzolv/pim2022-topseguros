@@ -1,0 +1,163 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.navbar{
+    margin-bottom: 0px;
+
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+
+.img-logo {
+    width: 400px;
+    height: 100px;
+}
+
+
+.bg-right-content-principal {
+    padding: 1%;
+    background-color: white;
+    border-start-end-radius: 300px;
+    border-end-end-radius: 300px;
+    box-shadow:rgba(0,0,0,0.4) 10px 10px 10px;
+}
+
+.bg-content-principal {
+    padding: 2%;
+    background-color: #7C8D9D;
+}
+.bg-right-content-contato {
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.4) 10px 10px 10px;
+    border-radius: 25px 25px;
+}
+
+.img-show-car-logo {
+    width: 100%;
+}
+.txt-principal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    transition: 0.5s;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.price-img-principal{
+    width:100%;
+}
+
+.price-txt-principal{
+    padding-top: 10px;
+    text-align:center;
+    color: white;
+
+}
+
+.div-price-principal {
+    background-image: url("../resources/splash.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+    background-size:contain;
+    margin-top: 40%;
+}
+
+.titulo-contato {
+    text-shadow: 2px 2px 3px gray;
+}
+
+.contato-span {
+    background-color: dimgray;
+    margin-left: 2rem;
+    color: white;
+    box-shadow: rgba(0,0,0,0.4) 2px 2px 2px;
+    border-radius: 7px 7px;
+}
+.contato-span-txt {
+    text-align:center;
+}
+
+.div-contato {
+    margin-top: 20px;
+}
+
+.btn-contato {
+    margin-top:5%;
+}
+
+.bg-content-vantagens{
+    margin-top: 7rem;
+    margin-bottom: 9rem;
+    background-color: white;
+}
+
+.bg-content-vantagens > .row {
+    margin-top: 3rem;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img-vantagens{
+    width:6rem;
+}
+
+#btnEnviar {
+    transition: .4s;
+}
+
+    #btnEnviar:hover {
+        box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+        transition: .4s
+    }
+
+.div-plano {
+    background-color: white;
+    border-radius: 21px 21px;
+    box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+    padding: 2rem;
+}
+
+.bg-content-planos {
+    padding: 2%;
+    background-color: #7C8D9D;
+}
+
+.div-titulo-planos {
+    margin-top:4rem;
+    margin-bottom:4rem;
+}
+
+footer{
+    margin-top: 1rem;
+}
+

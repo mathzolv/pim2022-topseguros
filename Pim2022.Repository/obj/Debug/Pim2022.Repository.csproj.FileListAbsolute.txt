@@ -1,0 +1,6 @@
+C:\Users\luans\source\repos\Pim2022-topSegurosBrasil\Pim2022.Repository\bin\Debug\Pim2022.Repository.dll
+C:\Users\luans\source\repos\Pim2022-topSegurosBrasil\Pim2022.Repository\bin\Debug\Pim2022.Repository.pdb
+C:\Users\luans\source\repos\Pim2022-topSegurosBrasil\Pim2022.Repository\obj\Debug\Pim2022.Repository.csproj.AssemblyReference.cache
+C:\Users\luans\source\repos\Pim2022-topSegurosBrasil\Pim2022.Repository\obj\Debug\Pim2022.Repository.csproj.CoreCompileInputs.cache
+C:\Users\luans\source\repos\Pim2022-topSegurosBrasil\Pim2022.Repository\obj\Debug\Pim2022.Repository.dll
+C:\Users\luans\source\repos\Pim2022-topSegurosBrasil\Pim2022.Repository\obj\Debug\Pim2022.Repository.pdb
